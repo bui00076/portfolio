@@ -1,0 +1,212 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*import link*/
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,600&family=Trocchi&display=swap');
+/*body styling*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/* navbar styling */
+.navbar li {
+    padding-right: 20px;
+}
+.navbar a{
+    font-family: 'Trocchi', serif;
+    font-size: 25px;
+}
+.navbar-brand {
+    margin-left: 20px;
+}
+/* Home styling */
+.home {
+    color:black;
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+.home-content {
+    align-self: center;
+}
+.home-image{
+    margin-left: 20px;
+}
+.home .home-content .home-text .text-1{
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+.home .home-content .home-text .text-2{
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+.home .home-content .home-text .text-3{
+    font-size: 25px;
+    margin: 5px 0;
+    padding-bottom: 92px;
+}
+.home .home-content .home-text .text-3 span{
+    color: #35A0FB;
+    font-weight: 600;
+}
+.btn-primary {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #35A0FB;
+    color: #fff;
+    font-size: 25px;
+    padding: 17px 17px;
+    border-radius: .5rem;
+    margin-left: 50%;
+}
+.btn-primary:hover{
+    box-shadow: 0 10px 36px #707070;
+}
+/*home portfolio start*/
+.home-portfolio-text {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.port-text {
+    color: black;
+    font-weight: 500;
+    text-align: center;
+}
+/*transparent text box*/
+.home-portfolio {
+    position: relative;
+    margin: 0 auto;
+}
+.port-image {
+    vertical-align: middle;
+  }
+.text-box {
+    position: absolute;
+    background: #CCDDEA;
+    top: 349px;
+    left: 0%;
+    color: black;
+    width: 395px;
+    padding: 20px;
+    opacity: 0.75;
+  }
+/*footer styling*/
+footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #707070;
+}
+footer p {
+    padding-bottom: 15px;
+}
+.fa-brands {
+    font-size: 25px;
+    padding-right: 20px;
+}
+.fa-solid {
+    font-size: 25px;
+    padding-right:20px;
+}
+/* responsive media query start*/
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 768px) { 
+    .home .home-content .home-text .text-1{
+        font-size: 22px;
+    }
+    .home .home-content .home-text .text-2{
+        font-size: 40px;
+    }
+    .home .home-content .home-text .text-3{
+        font-size: 22px;
+    }
+    .home .home-content .home-text .text-3 span{
+        color: #35A0FB;
+    }
+    .btn-primary {
+        font-size: 18px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .home .home-content .home-text .text-1{
+        font-size: 20px;
+    }
+    .home .home-content .home-text .text-2{
+        font-size: 30px;
+    }
+    .home .home-content .home-text .text-3{
+        font-size: 20px;
+    }
+    .home .home-content .home-text .text-3 span{
+        color: #35A0FB;
+    }
+    .btn-primary {
+        font-size: 15px;
+    }
+ }
+ /* Small devices (landscape phones, 576px and up) */
+ @media (max-width: 576px) { 
+    .home .home-content .home-text .text-1{
+        font-size: 15px;
+    }
+    .home .home-content .home-text .text-2{
+        font-size: 20px;
+    }
+    .home .home-content .home-text .text-3{
+        font-size: 15px;
+    }
+    .home .home-content .home-text .text-3 span{
+        color: #35A0FB;
+    }
+    .btn-primary {
+        font-size: 11px;
+    }
+  }
+ 
