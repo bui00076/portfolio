@@ -52,6 +52,9 @@ table {
 body {
     font-family: 'Open Sans', sans-serif;
 }
+h1 {
+    margin-top: 30px;
+}
 /* navbar styling */
 .navbar li {
     padding-right: 20px;
@@ -107,7 +110,7 @@ body {
     box-shadow: 0 10px 36px #707070;
 }
 /*home portfolio start*/
-.home-portfolio-text {
+.header-text {
     font-size: 40px;
     text-align: center;
     margin-top: 50px;
@@ -118,7 +121,7 @@ body {
     font-weight: 500;
     text-align: center;
 }
-/*transparent text box*/
+/*transparent text box in home portfolio*/
 .home-portfolio {
     position: relative;
     margin: 0 auto;
@@ -136,22 +139,180 @@ body {
     padding: 20px;
     opacity: 0.75;
   }
+.portfolio {
+    margin-top: 45px;
+}
+/*about styling*/
+/* skill bar for about styling*/
+.skills-bar {
+    display: grid;
+    width:600px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+.skills-bar .bar{
+    margin: 10px 0;
+}
+.skills-bar .bar .info {
+    font-family: 'Comic Neue', cursive;
+    margin-bottom: 10px;
+}
+.skills-bar .bar .info span{
+    font-size: 17px;
+    font-weight: 500;
+}
+.skills-bar .bar .progress-line{
+    position: relative;
+    height: 26px;
+    width:100%;
+    background: #DDECF3;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.05),
+                0px 1px 1px rgba(255,255,255,0.8);
+    border-radius: 4px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+.bar .progress-line span {
+    height:100%;
+    width:80%;
+    background:#8BBDD8 ;
+    position: absolute;
+    border-radius: 4px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate{
+    100%{
+        transform: scaleX(1)
+    }
+}
+.progress-line.creative span {
+    width:75%;
+}
+.progress-line.problem-solving span {
+    width:65%;
+}
+.progress-line.branding span {
+    width:60%;
+}
+.progress-line.software span {
+    width:85%;
+}
+.progress-line.teamwork span {
+    width:80%;
+}
+.progress-line.time-management span {
+    width:95%;
+}
+/*educaton and program section styling*/
+.about {
+    margin-top: 30px;
+}
+.about-text {
+    font-family: 'Comic Neue', cursive;
+    margin-top:50px;
+}
+/*contact styling*/
+.contact-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+.submit {
+    margin-left: 0;
+    font-size: 20px;
+}
+/*photography styling*/
+.photo-text-box {
+    position: absolute;
+    background: #CCDDEA;
+    top: 394px;
+    left: 0%;
+    color: black;
+    width: 350px;
+    padding: 20px;
+    opacity: 0.75;
+  }
+.photography {
+    position: relative;
+    margin: 0 auto;
+}
+.photo-image {
+    vertical-align: middle;
+  }
+.photo-text {
+    color: black;
+    font-weight: 500;
+    text-align: center;
+}/*videography styling*/
+.video-text {
+    margin-top: 30px;
+    padding-left: 40px;
+}
+.video-2 {
+    margin-top: 40px;
+}
+/* artwork styling*/
+.art-text-box {
+    position: absolute;
+    background: #CCDDEA;
+    top: 394px;
+    left: 0%;
+    color: black;
+    width: 360px;
+    padding: 20px;
+    opacity: 0.75;
+  }
+.artwork {
+    position: relative;
+    margin: 0 auto;
+}
+.art-image {
+    vertical-align: middle;
+  }
+.art-text {
+    color: black;
+    font-weight: 500;
+    text-align: center;
+}
+/*graphic design styling*/
+.graphic-text {
+    margin-top: 30px;
+    padding-left: 40px;
+}
+.graphic-2 {
+    margin-top: 40px;
+    padding-left: 50px;
+}
+/* web development styling */
+.web-text {
+    margin-top: 30px;
+    padding-left: 40px;
+}
+.web-2 {
+    margin-top: 40px;
+    padding-left: 50px;
+}
+/* ux/ui design styling */
+.ux-text {
+    margin-top: 30px;
+}
+.ux-image {
+    margin-top: 40px;
+}
 /*footer styling*/
 footer {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     color: #707070;
-}
-footer p {
-    padding-bottom: 15px;
-}
-.fa-brands {
-    font-size: 25px;
-    padding-right: 20px;
-}
-.fa-solid {
-    font-size: 22px;
-    padding-right:20px;
+    margin-top: 30px;
 }
 /* responsive media query start*/
 /* Large devices (desktops, 992px and up) */
