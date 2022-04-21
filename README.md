@@ -1,1 +1,6 @@
-# portfolio
+Reflection:
+I have learned a lot after completing this portfolio. I feel that bootstrap has helped me a lot when changing the layout of my website. I struggled a lot before knowing about bootstrap. I had to scale a lot for each layout, I also had to change the image to make it work for all browsers. Also, the navbar used to be a very difficult part for me, but when using bootstrap, it has built-in code that you can learn and change according to your intended use. I encourage you to use bootstrap when creating web pages. However I have some problems creating the website. I spent a lot of time creating the navbar because it was a very difficult part for me, it took time for me because I forgot to include the bootstrap link. Overall, when creating this website I felt a bit of pressure but not as much as midterm. I am very satisfied with this assignment.
+Link:
+Bootstrap link: https://getbootstrap.com/
+Photos from Pinterest: https://www.pinterest.ca/
+Logo and some photos from Pexels: https://www.pexels.com/

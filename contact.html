@@ -50,28 +50,32 @@
       </div>
   </nav>
     </header>
-    <div class="container"> 
-        <div class="contact-box">
-            <h1 class="uppercase text-center fw-bold fs-2"> Get in Touch!</h1>
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Name</label>
-            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name">
+    <section class="get-in-touch">
+      <h1 class="title display-3 text-uppercase text-dark text-center">get in touch</h1>
+      <div class="container">
+        <div class="contact-form row">
+          <div class="form-field col-lg-6">
+            <input id="name" class="input-text" type="text" name="name">
+            <label for="name" class="label">Name</label>
           </div>
-        <div class="mb-3">
-            <label for="exampleFormControlInput2" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Enter your email">
+          <div class="form-field col-lg-6">
+            <input id="email" class="input-text" type="email" name="email">
+            <label for="email" class="label">Email</label>
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput3" class="form-label">Phone Number</label>
-            <input type="phone" class="form-control" id="exampleFormControlInput3" placeholder="Enter your phone number">
+          <div class="form-field col-lg-6">
+            <input id="phone" class="input-text" type="text" name="phone">
+            <label for="phone" class="label">Phone</label>
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your message"></textarea>
+          <div class="form-field col-lg-6">
+            <input id="message" class="input-text" type="text" name="message">
+            <label for="message" class="label">Message</label>
           </div>
-          <a class="submit btn btn-primary btn-lg" href="about.html" role="button">Send message</a>
+          <div class="form-field col-lg-6">
+            <input class="submit-btn" type="submit" value="submit" name="submit">
+          </div>
         </div>
-    </div>
+      </div>
+    </section>
       <!-- Footer -->
     <footer class="text-center text-white" style="background-color: #F1F9FF;">
         <!-- Grid container -->
@@ -118,8 +122,9 @@
       
         <!-- Copyright -->
         <div class="text-center text-dark p-3" style="background-color:#D1E9FB;">
-          © 2020 Copyright:
-          <a class="text-dark">Ngoc Thuy Bui. All right reserved.</a>
+          © 2022 Copyright by
+          <a class="text-dark">Ngoc Thuy Bui.</a>
+          All right reserved.
         </div>
         <!-- Copyright -->
       </footer>
